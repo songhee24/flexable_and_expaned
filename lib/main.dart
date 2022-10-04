@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
             color: Colors.red,
           ),
           Flexible(
-            fit: FlexFit.loose,
+            fit: FlexFit.tight,
             child: Container(
               height: 100,
               child: Text('Item 2'),
